@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+    background-color: black;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100vh;
+}
+
+.container-headline {
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.game-content {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    padding-top: 150px;
+}
+
+.game-info {
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-div {
+    display: grid;
+    gap: 1px;
+    background-color: #ddd;
+    /* border: 1px solid #000000; */
+    height: 400px;
+    width: 400px;
+}
+
+.grid-div div {
+    background-color: white;
+    border-left: 1px solid #000000;
+    border-top: 2px solid #000;
+}
+
+
+.pelement {
+    margin-bottom: 20px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.pelement:hover{
+    color: black;
+    background-color: white;
+}
+
+.range {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.sketch {
+    font-size: 80px;
+}
+
+.input-range {
+    width: 100%;
+}
+#color-input{
+    margin-left: 33px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 70px;
+    cursor: pointer;
+    
+}
+
+
+
